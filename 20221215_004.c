@@ -6,7 +6,7 @@ int main(){
     printf("Digite raio do circulo: ");
     scanf("%f", &r);
     pi = 3.14;
-    printf("\nArea do circulo = %.1f\n", pi*r*r);
+    printf("\nArea do circulo = %.2f\n", pi*r*r);
 
     system("pause");
     return 0;
