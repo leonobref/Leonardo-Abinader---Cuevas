@@ -10,4 +10,5 @@ int main(){
     c = c + 1;
     }
     printf("\nSoma = %d", s);
+    return 0;
 }
