@@ -19,4 +19,5 @@ int main(){
     }
     printf("\nO menor numero digitado foi: %d", numenor);
     printf("\nO maior numero digitado foi: %d", numaior);
+    return 0;
 }
