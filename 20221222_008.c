@@ -7,14 +7,14 @@ int main() {
   printf("Digite um numero: ");
   scanf("%d" , &n);
 
-  for (h = 1; h <= n; h++) {
+  for (h = 1; h < n; h++) {
     sn = 0;
     for (a = 1; a < h && !sn; a++) {
       b = a;
       while (a*a + b*b < h*h)
 	b += 1;
       if (a*a + b*b == h*h){
-	printf("Catetos %d e %d\n", a, b);
+	printf("Inteiro: %d\n", h);
 	sn = 1;
       }
     }
