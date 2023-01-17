@@ -17,9 +17,8 @@ return num;
 }
 
 float arctan(float x){
-    float atan, rad;
+    float atan = 0, rad;
     int cont = 1, cont2 = 3;
-    atan = x;
     for(;;){
         atan += (pow(x,cont)/cont);
         if((pow(x,cont)/cont) < 0.0001)
@@ -30,8 +29,7 @@ float arctan(float x){
         break;
         cont2 += 4;
     }
-    rad = (atan * 3.14159)/180;
-    return rad;
+    return atan;
 }
 
 void imprime(float a, float b){
