@@ -30,4 +30,6 @@ int main(){
     }
     printf("A soma das duas matrizes eh: \n");
     somamatrizes(a, b);
+    
+    return 0;
 }
