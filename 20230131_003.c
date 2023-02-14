@@ -7,12 +7,12 @@ char data[11];
 int dia, mes, ano;
 
     printf("Escreva uma data no formato DD/MM/YYYY: ");
-    scanf("%10s", data);
+    gets(data);
     fflush(stdin);
 
     while(strlen(data) != 10 || data[2] != '/' || data[5] != '/' || !isdigit(data[0]) || !isdigit(data[1]) || !isdigit(data[3]) || !isdigit(data[4]) || !isdigit(data[6]) || !isdigit(data[7]) || !isdigit(data[8]) || !isdigit(data[9])) {
     printf("Escreva uma data no formato DD/MM/YYYY: ");
-    scanf("%10s", data);
+    gets(data);
     fflush(stdin);
     }
 
