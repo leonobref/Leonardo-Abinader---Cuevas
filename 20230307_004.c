@@ -9,6 +9,6 @@ int main(){
     }
     for(i=0;i<8;i++){
         if((*a+i)%2 == 0)
-            printf("\nElemento %d do array eh %d e seu endereco eh %d.",i+1,*(a+1),a+i);
+            printf("\nElemento %d do array eh %d e seu endereco eh %d.",i+1,*(a+i),a+i);
     }
 }
